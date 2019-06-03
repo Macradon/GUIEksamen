@@ -1,0 +1,154 @@
+﻿body {
+    background-color: lightgoldenrodyellow;
+    background-image: url(/images/Metal.gif);
+    color: black;
+    font-family: Verdana,Arial, sans-serif;
+}
+
+header {
+    background-color: darkkhaki;
+    color: black;
+    text-align: center;
+    margin: 0;
+    height: 100px;
+}
+
+nav {
+    text-align: left;
+    float: left;
+    width: 110px;
+    padding-top: 6px;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: darkkhaki;
+    color: black;
+    font-size: 2em;
+    clear: left;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+    nav a:link {
+        color: #996633;
+    }
+
+    nav a:visited {
+        color: black;
+    }
+
+    nav a:hover {
+        color: blue;
+    }
+
+nav ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: darkkhaki;
+    color: black;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+    footer a:link {
+        color: #996633;
+    }
+
+    footer a:visited {
+        color: black;
+    }
+
+    footer a:hover {
+        color: blue;
+    }
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #ffffcc;
+    min-width: 700px;
+}
+
+h2 {
+    text-transform: uppercase;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-size: 1.2em;
+    clear: left;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 35px;
+}
+
+#content {
+    padding: 10px 20px 30px;
+    margin-left: 150px;
+    background-color: #f2eab7;
+    color: #000000;
+}
+
+.floatright {
+    padding-left: 20px;
+    float: right;
+}
+
+.floatleft {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+img {
+    border-style: none;
+}
+
+header, nav, figure, footer {
+    display: block;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #ccaa66;
+}
+
+form {
+    padding: 10px;
+}
+
+label {
+    float: left;
+    width: 100px;
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+input, textarea {
+    margin-top: 10px;
+    display: block;
+    vertical-align: middle;
+}
+
+#mySubmit {
+    margin-left: 110px;
+}
+
+.text-danger {
+    color: red;
+}

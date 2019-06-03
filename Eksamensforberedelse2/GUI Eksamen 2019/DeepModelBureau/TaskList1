@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTask xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Task>
+    <CosName>Henrys DanceClub </CosName>
+    <Date>301218</Date>
+    <NoOfDays>2</NoOfDays>
+    <Location>Henrys DanceClub</Location>
+    <NoOfModels>1</NoOfModels>
+    <Comments>Its gonna be dangerous</Comments>
+  </Task>
+  <Task>
+    <CosName>Tims Bar</CosName>
+    <Date>280418</Date>
+    <NoOfDays>1</NoOfDays>
+    <Location>Tims Bar Aarhus</Location>
+    <NoOfModels>1</NoOfModels>
+    <Comments>SpringParty</Comments>
+  </Task>
+  <Task>
+    <CosName>DumanHouse</CosName>
+    <Date>100819</Date>
+    <NoOfDays>1</NoOfDays>
+    <Location>Dumans Place</Location>
+    <NoOfModels>3</NoOfModels>
+    <Comments>Absolutely Wild</Comments>
+  </Task>
+</ArrayOfTask>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLocation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Location>
+    <ID>0</ID>
+    <Name>Tri-Hjem</Name>
+    <Street>Fjældevænget</Street>
+    <StreetNum>10</StreetNum>
+    <ZipCode>8210</ZipCode>
+    <City>Aarhus V</City>
+    <TreeMonitorList>4Birch,2Oak</TreeMonitorList>
+  </Location>
+  <Location>
+    <ID>0</ID>
+    <Name>Shannon</Name>
+    <Street>Finlandsgade</Street>
+    <StreetNum>24</StreetNum>
+    <ZipCode>8200</ZipCode>
+    <City>Aarhus N</City>
+    <TreeMonitorList>2Maple</TreeMonitorList>
+  </Location>
+  <Location>
+    <ID>0</ID>
+    <Name>Gamle Hjem</Name>
+    <Street>Primulavej</Street>
+    <StreetNum>76</StreetNum>
+    <ZipCode>9890</ZipCode>
+    <City>Hjørring</City>
+    <TreeMonitorList>3Pine,1Oak,1Plum,1Pear</TreeMonitorList>
+  </Location>
+</ArrayOfLocation>
