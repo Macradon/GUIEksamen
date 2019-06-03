@@ -1,0 +1,53 @@
+﻿@model IEnumerable<GUIEksamen2019SmartCityWeb.Models.TreeSensorModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TreeSort)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LocationID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CoordinateIat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CoordinateIon)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TreeSort)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoordinateIat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoordinateIon)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SensorID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SensorID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SensorID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
